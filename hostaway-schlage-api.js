@@ -43,3 +43,18 @@ app.post('/webhooks/reservations', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
+
+
+
+
+// To simulate a reservation webhook, you can use curl to send a POST request with a JSON payload
+
+// curl -X POST \
+//   http://localhost:3000/webhooks/reservations \
+//   -H 'Content-Type: application/json' \
+//   -d '{
+//     "reservationId": "12345",
+//     "guestName": "Himanshu sharma",
+//     "checkInDate": "2024-02-01",
+//     "checkOutDate": "2024-02-10"
+//   }'
