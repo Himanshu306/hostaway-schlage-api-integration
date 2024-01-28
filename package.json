@@ -1,0 +1,21 @@
+{
+  "name": "hostaway-schlage-integration",
+  "version": "1.0.0",
+  "description": "Integration script between Hostaway API and Schlage API",
+  "main": "hostaway-schlage-api.js",
+  "scripts": {
+    "start": "node hostaway-schlage-api.js"
+  },
+  "keywords": [
+    "hostaway",
+    "schlage",
+    "integration",
+    "api"
+  ],
+  "author": "Himanshu Sharma",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "seamapi": "^1.0.0"
+  }
+}
